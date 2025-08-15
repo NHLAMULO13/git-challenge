@@ -1,0 +1,14 @@
+body {
+  background: rgb(194, 117, 130);
+}
+
+h1 {
+  text-align: center;
+}
+
+.cover {
+  max-width: 800px;
+  margin: auto;
+  background: rgb(194, 74, 148);
+  padding: 30px;
+}
