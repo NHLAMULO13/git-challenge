@@ -4,6 +4,7 @@ body {
 
 h1 {
   text-align: center;
+  text-decoration: underline;
 }
 
 .cover {
@@ -19,4 +20,8 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 4px;
+}
+
+.measurementsMethod {
+  color: rgb(57, 12, 99);
 }
