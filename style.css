@@ -12,3 +12,11 @@ h1 {
   background: rgb(194, 74, 148);
   padding: 30px;
 }
+
+img {
+  width: 250px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
