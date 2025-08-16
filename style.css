@@ -22,6 +22,16 @@ img {
   border-radius: 4px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(57, 3, 107);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .measurementsMethod {
   color: rgb(57, 12, 99);
 }

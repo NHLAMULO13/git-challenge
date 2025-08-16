@@ -1,0 +1,2 @@
+$(document).ready(function(){$(".announcement-bar__inner .announcement-bar").slick({slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3,arrows:!1,dots:!1})});
+//# sourceMappingURL=/cdn/shop/t/7/assets/custom.js.map?v=41163638022447674291685946465
