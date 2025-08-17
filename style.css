@@ -6,7 +6,27 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
+h2 {
+  color: rgb(190, 12, 42);
+  background: rgb(255, 255, 255, 0.2);
+}
 
+button {
+  background: rgb(155, 53, 70);
+  color: white;
+  border-radius: 20px;
+  border: 4px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  transition: all 300ms ease-in-out;
+}
+button:hover {
+  background: rgb(255, 255, 255, 0.2);
+  color: rgb(173, 20, 45);
+  font-weight: bolder;
+  cursor: pointer;
+}
 .cover {
   max-width: 800px;
   margin: auto;
@@ -15,7 +35,7 @@ h1 {
 }
 
 img {
-  width: 250px;
+  width: 300px;
   height: 350px;
   display: block;
   margin: 0 auto;
@@ -39,4 +59,7 @@ a:hover {
 .bananaBread {
   width: 300px;
   height: 350px;
+}
+li {
+  list-style: none;
 }
