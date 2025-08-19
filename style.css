@@ -8,6 +8,8 @@ body {
 h1 {
   text-align: center;
   text-decoration: underline;
+  background: rgb(206, 96, 96, 0.3);
+  font-size: 60px;
 }
 h2 {
   color: rgb(190, 12, 42);
@@ -23,11 +25,15 @@ button {
   display: block;
   margin: 0 auto;
   transition: all 300ms ease-in-out;
+  width: 120px;
+  height: 30px;
+  font-size: 11px;
 }
 button:hover {
   background: rgb(255, 255, 255, 0.2);
   color: rgb(173, 20, 45);
   font-weight: bolder;
+  border: solid rgb(155, 93, 103);
   cursor: pointer;
 }
 .cover {
@@ -37,12 +43,17 @@ button:hover {
   padding: 30px;
 }
 
+.greet {
+  color: purple;
+}
+
 img {
   width: 350px;
   height: 350px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
+  position: relative;
 }
 a {
   text-decoration: none;

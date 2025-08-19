@@ -22,3 +22,10 @@ if (backButton) {
     });
   }
 }
+function click() {
+  let greet = prompt("Hello there👋🏾🤍! What is your name?");
+  let heading = document.querySelector(".greet");
+  heading.innerHTML = "Hello " + greet + "! WELCOME HOME. ENJOY BROWSING🤍";
+}
+let clickMe = document.querySelector(".clickButton");
+clickMe.addEventListener("click", click);
