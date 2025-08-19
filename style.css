@@ -1,5 +1,8 @@
 body {
-  background: rgb(194, 117, 130);
+  background-image: url("images/background.jpg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -8,7 +11,7 @@ h1 {
 }
 h2 {
   color: rgb(190, 12, 42);
-  background: rgb(255, 255, 255, 0.2);
+  background: rgba(243, 146, 214, 0.377);
 }
 
 button {
@@ -30,18 +33,17 @@ button:hover {
 .cover {
   max-width: 800px;
   margin: auto;
-  background: rgb(194, 74, 148);
+  background: rgb(255, 255, 255, 0.4);
   padding: 30px;
 }
 
 img {
-  width: 300px;
+  width: 350px;
   height: 350px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
 }
-
 a {
   text-decoration: none;
 }
@@ -49,6 +51,10 @@ a {
 a:hover {
   color: rgb(57, 3, 107);
   font-weight: bold;
+  text-decoration: underline;
+}
+
+.pages {
   text-decoration: underline;
 }
 
